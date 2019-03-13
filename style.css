@@ -40,3 +40,25 @@ a{
   allign-items: center;
   padding: 30px 10px;
 }
+
+/*Content Section*/
+div{
+  border: 1px solid black;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
