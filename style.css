@@ -18,12 +18,17 @@ header{
 .logo{
   display: flex;
   align-items: center;
+  flex-grow: 1;
   padding-left: 20px;
 }
 
 .logo span{
   color: MediumAquamarine;
   padding-left: 20px;
+}
+
+header nav{
+  padding-right: 40px;
 }
 
 a{
