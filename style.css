@@ -28,7 +28,7 @@ header{
 }
 
 header nav{
-  padding-right: 40px;
+  padding-right: 30px;
 }
 
 a{
@@ -48,7 +48,18 @@ div{
 
 .content{
   display: flex;
+  width: 1200px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin bottom: 80px;
+  margin-left: auto;
+  padding-top: 120px;
+}
+
+.column{
+  display: flex;
   flex-direction: column;
+  margin-right: 32px;
 }
 
 .column.large {
